@@ -85,5 +85,4 @@ See [`hardware/bom/bom.csv`](hardware/bom/bom.csv) for the component list, speci
 
 
 ## License
-
-To be decided.
+MIT license

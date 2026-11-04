@@ -1,4 +1,13 @@
-# ESP32-S3
+<h1 align="center">ESP32 S3 ECHO</h1>
+<p align="center">
+  <strong>A custom-designed ESP32-S3 development board.</strong>
+  <br>
+  Designed with EasyEDA.
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/584da511-3ae0-4ec1-97af-5ced1b638238" width="40%" alt="ESP32-S3 PCB 3D render">
+</p>
 
 ## Overview
 
@@ -31,19 +40,14 @@ This project is my plan to get more into PCB design, component selection, power 
 
 The schematic is being developed in EasyEDA. I've been working on the microcontroller connections, USB interface, external flash, battery management, and voltage regulation.
 
-![Schematic](docs/images/schematic.png)
+![Schematic](https://github.com/user-attachments/assets/85af5520-2933-49b9-b4ba-35e5efad09b8)
 
 ### 2. PCB Layout
 
 The PCB layout is where the schematic starts becoming a physical design. I've started arranging the major components and working on their placement and connections.
 
-![PCB Layout](docs/images/pcb-layout.png)
-
-### 3. 3D PCB View
-
-The 3D view helps visualize the board and inspect component placement before manufacturing.
-
-![3D PCB Render](docs/images/pcb-3d.png)
+<img width="450" height="329" alt="top" src="https://github.com/user-attachments/assets/a78f2d8c-0a9c-40ab-a65f-346abae78785" />
+<img width="450" height="329" alt="bottom" src="https://github.com/user-attachments/assets/13eddd29-e23d-44c3-849a-e9029cb0ccb7" />
 
 ## Hardware Components
 
@@ -58,7 +62,7 @@ The 3D view helps visualize the board and inspect component placement before man
 | RT9080-33 | 3.3V voltage regulation |
 | SS34 | Schottky diode |
 
-See [`hardware/bom/bom.csv`](hardware/bom/bom.csv) for the component list, specifications, and purchase links.
+See [`hardware/bom.csv`](hardware/bom.csv) for the component list, specifications, and purchase links.
 
 ## Repository Contents
 
@@ -67,21 +71,7 @@ See [`hardware/bom/bom.csv`](hardware/bom/bom.csv) for the component list, speci
 - `docs/` – Design documentation, screenshots, and notes.
 - `hardware/bom/` – Bill of Materials.
 
-## Current Status
 
-**Design in progress.**
-
-- [x] Component research and selection
-- [x] Initial schematic development
-- [x] Power management circuit development
-- [x] Initial PCB component placement
-- [ ] Complete PCB routing
-- [ ] Electrical rule checking (ERC)
-- [ ] Design rule checking (DRC)
-- [ ] Final footprint verification
-- [ ] Generate Gerber files
-- [ ] Manufacture and assemble PCB
-- [ ] Hardware testing and firmware validation
 
 
 ## License

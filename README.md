@@ -62,13 +62,11 @@ The PCB layout is where the schematic starts becoming a physical design. I've st
 | RT9080-33 | 3.3V voltage regulation |
 | SS34 | Schottky diode |
 
-See [`hardware/bom.csv`](hardware/bom.csv) for the component list, specifications, and purchase links.
+See [`hardware/bom/bom.csv`](hardware/bom/bom.csv) for the component list, specifications, and purchase links.
 
 ## Repository Contents
 
 - `hardware/` – Schematic, PCB source files, and manufacturing exports.
-- `firmware/` – Firmware development.
-- `docs/` – Design documentation, screenshots, and notes.
 - `hardware/bom/` – Bill of Materials.
 
 

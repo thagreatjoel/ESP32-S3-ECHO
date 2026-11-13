@@ -68,7 +68,7 @@ See [`hardware/bom/bom.csv`](hardware/bom/bom.csv) for the component list, speci
 
 - `hardware/` – Schematic, PCB source files, and manufacturing exports.
 - `hardware/bom/` – Bill of Materials.
-
+- Step File for the PCB [File](https://cdn.hackclub.com/01a1d402-ac79-7a29-8518-55c784c5e9a4/model.step)
 
 
 
